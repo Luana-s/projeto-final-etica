@@ -17,7 +17,7 @@ body {
     padding-bottom: 32px;
     padding-top: 32px;
     background-color: rgb(19, 18, 18);
-    font-size:40px ;   
+    font-size:40px ; 
 }
 
 .principal{
@@ -27,7 +27,7 @@ body {
     min-height: 100vh;
     height: 100vh;
     display: flex;
-    background-image: linear-gradient(to bottom , #9e9797, #776969);  
+    background-image: linear-gradient(to bottom , #9e9797, #a89797);  
 }
 
 .container{
@@ -67,12 +67,11 @@ body {
     opacity: 1;
 }
 
-
 p {
     font-size: 20px;
     padding: 20px;
     
-    color: #423737;
+    color: #fff;
 }
 
 
@@ -88,8 +87,8 @@ p {
 }   
 .container-footer {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center; 
     background-color: rgb(12, 12, 12);
     height: 200px;
     color: #faf8f8;
@@ -109,6 +108,7 @@ p {
 .answer {
     display: none;
     margin-top: 10px;
+    
 }
 
 li:hover .answer {
@@ -126,6 +126,6 @@ li:hover .answer {
 }
 
 .question img {
-    margin-right: 10px; /* Espaço entre a imagem e o texto da pergunta */
-    vertical-align: middle; /* Alinha verticalmente a imagem ao texto */
+    margin-right: 10px; 
+    vertical-align: middle; 
 }
